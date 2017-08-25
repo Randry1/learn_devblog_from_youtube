@@ -39,6 +39,10 @@ class PostsController < ApplicationController
     redirect_to posts_path
   end
 
+  def contacts
+
+  end
+
   private
 
   def post_params

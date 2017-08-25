@@ -19,7 +19,7 @@
               <a class="navbar-brand" href="#"><%= link_to 'Статьи', posts_path %></a>
             </div>
             <div class="navbar-header ">
-              <a class="navbar-brand" href="#">Контакты</a>
+              <%= link_to 'Контакты', contacts_posts_path, class: 'navbar-brand' %>
             </div>
             <ul class="nav navbar-nav">
               <li class="active"><a href="#"><%= link_to 'Новая статья', new_post_path %></a></li>
