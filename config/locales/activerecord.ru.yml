@@ -1,0 +1,18 @@
+ru:
+  activerecord:
+    models:
+      post: 'Статья'
+    attributes:
+      post:
+        title: 'Заголовок'
+        summary: 'Описание'
+        body: 'Содержание'
+
+    errors:
+      messages:
+        blank: 'не может быть пустым'
+
+  common:
+    errors: 'При заполнении формы возникли ошибки'
+    back: 'Назад'
+    save: 'Сохранить'

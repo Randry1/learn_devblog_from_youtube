@@ -1,0 +1,15 @@
+ru:
+  hello: 'Привет'
+
+  posts:
+    new:
+      title: 'Новая статья'
+    edit:
+      title: 'Изменить статью'
+    index:
+      title: 'Статьи'
+    show:
+      title: 'Статья'
+
+    form:
+      save: '%{action} статью'
