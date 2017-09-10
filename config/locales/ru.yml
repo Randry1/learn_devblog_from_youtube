@@ -10,6 +10,8 @@ ru:
       title: 'Статьи'
     show:
       title: 'Статья'
+      edit: 'Изменить'
+      delete: 'Удалить'
 
     form:
       save: '%{action} статью'
