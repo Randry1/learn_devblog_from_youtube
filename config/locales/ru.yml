@@ -8,6 +8,9 @@ ru:
       title: 'Изменить статью'
     index:
       title: 'Статьи'
+      post:
+        edit: 'Изменить'
+        delete: 'Удалить'
     show:
       title: 'Статья'
       edit: 'Изменить'

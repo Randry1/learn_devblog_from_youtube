@@ -2,4 +2,4 @@
 <p><%= link_to t('.edit'), edit_post_path(@post) %></p>
 <p><%= link_to t('.delete'), post_path(@post) ,method: :delete, data: { confirm: 'Вы уверены?'} %></p>
 <p> <%= image_tag @post.image.url(:large), class: 'img-show' if @post.image? %> </p>
-<p><%= @post.body %></p>
+<section><%= @post.body %></section>
