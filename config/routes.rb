@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   resources :posts do
     get :contacts, on: :collection
   end
+  resources :pictures, only: [:create, :destroy]
 
 
 
