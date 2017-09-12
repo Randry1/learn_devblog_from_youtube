@@ -14,7 +14,7 @@
     <%= post.summary %>
   </sections>
   <section class="footer-summary">
-      <%= raw post.tags.map(&:name).map{ |t| link_to t, tag_path(t), class: 'tag tag-primary'}.join(' ') %>
+      <%= raw post.tags.map(&:name).map{ |t| link_to t, tag_path(t), class: 'badge badge-primary'}.join(' ') %>
   </section>
 </article>
 
