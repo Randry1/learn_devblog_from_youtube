@@ -1,6 +1,8 @@
 ru:
   hello: 'Привет'
-
+  will_paginate:
+    previous_label: '&larr; Туда'
+    next_label: 'Сюда &rarr;'
   posts:
     new:
       title: 'Новая статья'
