@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     get :contacts, on: :collection
   end
   resources :pictures, only: [:create, :destroy]
+  resources :tags, only: [:show]
 
 
 

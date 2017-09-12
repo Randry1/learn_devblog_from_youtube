@@ -1,5 +1,11 @@
-<h1><%= t('.title').to_s + ' '+ @post.title.to_s %></h1>
-<p><%= link_to t('.edit'), edit_post_path(@post) %></p>
-<p><%= link_to t('.delete'), post_path(@post) ,method: :delete, data: { confirm: 'Вы уверены?'} %></p>
-<p> <%= image_tag @post.image.url(:large), class: 'img-show' if @post.image? %> </p>
-<section><%= @post.body.html_safe %></section>
+
+<section class="post-head">
+  <h1><%= t('.title').to_s + ' '+ @post.title.to_s %></h1>
+  <p><%= link_to t('.edit'), edit_post_path(@post) %></p>
+  <p><%= link_to t('.delete'), post_path(@post) ,method: :delete, data: { confirm: 'Вы уверены?'} %></p>
+  <p> <%= image_tag @post.image.url(:large), class: 'img-show' if @post.image? %> </p>
+</section>
+<section class="post-summary">
+  <%= @post.body.html_safe %>
+</section>
+
