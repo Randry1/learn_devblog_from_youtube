@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   end
   resources :pictures, only: [:create, :destroy]
   resources :tags, only: [:show]
+  resources :categories
 
 
 
